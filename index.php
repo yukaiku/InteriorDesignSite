@@ -74,13 +74,16 @@ require_once ("components/navbar.php");
     <br/>
     <div class="row">
     <shopButton class="col-md-6">
-        <button type="button" class="cBtn">Consumer</button>
+        <a href="products.php" type="button" class="btn cBtn">Consumer</a>
     </shopButton>
     <shopButton class="col-md-6">
-        <button type="button" class="cBtn">Commercial</button>
+        <a type="products.php" class="btn cBtn">Commercial</a>
     </shopButton>
     </div>
 </container>
+<?php
+require_once ('components/footer.php');
+?>
 </body>
 
 

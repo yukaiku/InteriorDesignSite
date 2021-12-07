@@ -46,14 +46,14 @@
             text-transform:uppercase;
             text-shadow: 1px 1px grey;
         }
-        .cBtn:after, .cBtn:before{
+        .cBtn:after{
             display:block;
             content: '';
             border-bottom: solid 1px black;
             transform: scaleX(0);
             transition: transform 250ms ease-in-out;
         }
-        .cBtn:hover:after, .cBtn:hover:before{
+        .cBtn:hover:after{
             transform: scaleX(1);
         }
     </style>

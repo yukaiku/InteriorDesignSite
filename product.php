@@ -12,6 +12,7 @@
         body{
             width: 100%;
             height: 100vh;
+            font-family: oxygenFont;
         }
         imgArea{
             padding-top: 15%;
@@ -36,7 +37,6 @@
             margin-left: auto;
         }
         header{
-            font-family: capitalisFont;
             padding-top: 15%;
             font-size: 40px;
             padding-bottom: 1%;

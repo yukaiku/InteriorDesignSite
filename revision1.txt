@@ -1,0 +1,40 @@
+Draft 1 Revision
+Global Changes
+- Grey for outline and btn [e3e3e3]
+- Straight line boxes
+- 3 fonts [ Header, Body (Helvetica), Button]
+- $xx_/_sqm
+
+Nav Bar
+- Lighter Grey font color and underline hover effect
+- LOGO | SEARCH BAR | PAGE LINKS
+Footer
+- Copyright | FB INSTA LOGO
+
+Home page
+- Welcome text smaller
+- Bathhous logo bigger
+- Shop now text move closer to the buttons
+- Consumer and Commercial button move lower and even spacing between top and bottom, Remove shadow from button
+
+Products
+- Black and white boxes
+
+Product
+- Smaller and change font header
+
+Contact Us Page
+- Layout
+    - Map | Contact Us Form
+
+Checkout
+- Burberry Background Split Color
+ - E3E3E3 & White same for product, products
+- Price in AUD
+
+Others
+Address
+- 110 Kelvin Grove Road
+Kelvin Grove Qld 4059
+Aster Moon
+0422406041

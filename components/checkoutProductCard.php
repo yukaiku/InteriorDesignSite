@@ -36,11 +36,11 @@ class checkoutProductCard
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">' . $this->price . '/sqm</div>
+            <div class="col-sm-2">$' . $this->price . '/sqm</div>
             <div class="col-sm-2">
                 <input style="width: 100%" value="'. $this->quantity .'" placeholder="quantity" name="quantity" id="quantity' . $this->productId . '">
             </div>
-            <div class="col-sm-2 subtotal" id="subtotal' . $this->productId . '" >' . $this->subtotal . '</div>
+            <div class="col-sm-2 subtotal" id="subtotal' . $this->productId . '" >$' . $this->subtotal . '</div>
             <div class="col-sm-1">
                 <button id="cancelButton" value="productId" class="btn btn-outline-dark"><i class="bi bi-x-lg"></i></button>
             </div>

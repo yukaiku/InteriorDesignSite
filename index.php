@@ -12,9 +12,9 @@
         body{
             width: 100%;
             height: 100vh;
+            font-family: oxygenFont;
         }
         #homeBanner{
-            font-family: capitalisFont;
             width: 100%;
             height: 100vh;
             position: relative;
@@ -23,7 +23,7 @@
             text-align: center;
         }
         header{
-            font-size: 50px;
+            font-size: 45px;
         }
         subtitle{
             display: block;
@@ -44,7 +44,7 @@
             background-color: transparent;
             display: inline-block;
             text-transform:uppercase;
-            text-shadow: 1px 1px grey;
+            /*text-shadow: 1px 1px grey;*/
         }
         .cBtn:after{
             display:block;
@@ -66,12 +66,12 @@ require_once ("components/navbar.php");
 <container id="homeBanner">
 
     <header>
-        Welcome to<br/>Bathhous
+        <p style="font-size:30px; padding-bottom: 2%;">Welcome to</p><img src="img/logo.png" alt="..." height="80px">
     </header>
+    <br/><br/>
     <subtitle>
         Shop Now
     </subtitle>
-    <br/>
     <div class="row">
     <shopButton class="col-md-6">
         <a href="products.php" type="button" class="btn cBtn">Consumer</a>

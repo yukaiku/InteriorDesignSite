@@ -7,12 +7,21 @@
         top: 0;
         width: 100%;
     }
+    /*Change NavBar color here*/
+    .nav-link{
+    color: rgba(0,0,0,.40) !important;
+    }
+    .searchBar{
+        border-radius: 0;
+    }
 
 </style>
 
 <nav id="navbar" class="navbar sticky navbar-expand-sm navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+        <a class="navbar-brand" href="index.php">
+            <img src="img/logo.png" alt="..." height="20px">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,9 +37,9 @@
                     <a class="nav-link" href="contactUs.php">Contact Us</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" style="width: 100%" type="text" placeholder="Search">
-                <button class="btn btn-outline-dark" type="button">Search</button>
+            <form class="d-flex" style="width: 32%">
+<!-- Change it to a search bar with mag glass beside it and sharp edge                -->
+                <input class="form-control me-2 searchBar" style="width: 100%" type="text" placeholder="Search">
             </form>
             <a class="bi bi-cart" style="font-size: 20px; padding: 0 2%; color: black" href="cart.php"></a>
         </div>

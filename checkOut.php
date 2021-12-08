@@ -12,6 +12,7 @@
     <style>
         body{
             width: 100%;
+            font-family: oxygenFont;
         }
         container{
             height: fit-content;

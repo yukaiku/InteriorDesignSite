@@ -13,9 +13,9 @@
         body{
             width: 100%;
             height: 100vh;
+            font-family: oxygenFont;
         }
         header{
-            font-family: capitalisFont;
             padding-top: 5%;
             text-align: center;
             font-size: 50px;

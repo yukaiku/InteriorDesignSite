@@ -6,13 +6,12 @@
     <?php
     require_once ('components/cssTemplate.php');
     require_once ('components/jsTemplate.php');
-    require_once ('components/capitalisFont.php');
+    require_once ('components/styles.php');
     ?>
     <style>
         body{
             width: 100%;
             height: 100vh;
-            font-family: oxygenFont;
         }
         container{
             display: block;
@@ -25,7 +24,7 @@
             font-size: 50px;
         }
         productHeader{
-            background-color: #f9fafb;
+            background-color: #e3e3e3;
             padding: 1% 0;
         }
         products{
@@ -40,7 +39,7 @@ require_once ("components/navbar.php");
 require_once ("components/checkoutProductCard.php");
 ?>
 <container>
-    <header>
+    <header class="title">
         Cart Details
     </header>
     <main>
@@ -63,7 +62,7 @@ require_once ("components/checkoutProductCard.php");
                 ?>
             </div>
             <div class="col-sm-3">
-                <div style="background-color: #f9fafb; padding: 5% 5%">
+                <div style="background-color: #e3e3e3; padding: 5% 5%">
                     <div class="row">
                         <div class="col-sm-6">
                             <p>Total</p>
@@ -73,8 +72,8 @@ require_once ("components/checkoutProductCard.php");
                             $99
                         </div>
                     </div>
-                    <button class="btn btn-outline-dark">Update Cart</button>
-                    <a class="btn btn-dark" href="checkOut.php">Checkout</a>
+                    <button class="btn btn-outline-dark sourceSansProFont">Update Cart</button>
+                    <a class="btn btn-dark sourceSansProFont" href="checkOut.php">Checkout</a>
                 </div>
 
             </div>

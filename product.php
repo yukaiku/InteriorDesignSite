@@ -6,23 +6,27 @@
     <?php
     require_once ('components/cssTemplate.php');
     require_once ('components/jsTemplate.php');
-    require_once ('components/capitalisFont.php');
+    require_once ('components/styles.php');
     ?>
     <style>
         body{
             width: 100%;
             height: 100vh;
-            font-family: oxygenFont;
         }
         imgArea{
             padding-top: 15%;
             width: 100%;
             height: 100vh;
             padding-bottom: 15%;
-            background-color: #f9fafb;
+            background-color: #e3e3e3;
+            text-align: center;
+            vertical-align: center;
         }
         #productImage{
-            width: 100%;
+            width: 50%;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
         mainContent{
             height: 100vh;
@@ -75,7 +79,7 @@ require_once ("components/navbar.php");
         <img id="productImage" src="img/placeholder.png">
     </imgArea>
     <mainContent class="col-sm-6">
-        <header>FANCY DARK TILE</header>
+        <header class="title">FANCY DARK TILE</header>
         <price>$49/sqm</price>
         <hr/>
         <productDescription>
@@ -90,8 +94,8 @@ require_once ("components/navbar.php");
             <input name="quantity" value="" placeholder="Quantity">
             <hr/>
             <p>Total: $0</p>
-            <a class="btn btn-outline-dark" style="width: 100%; margin-bottom: 2%">Add to Cart</a>
-            <a class="btn btn-dark" href="cart.php" style="width: 100%;">Check Out</a>
+            <a class="btn btn-outline-dark sourceSansProFont" style="width: 100%; margin-bottom: 2%">Add to Cart</a>
+            <a class="btn btn-dark sourceSansProFont" href="cart.php" style="width: 100%;">Check Out</a>
             <hr/>
             <productSpecification>
                     <p id="productSpecificationToggleBtn" data-bs-toggle="collapse" href="#productSpecification" role="button" aria-expanded="false" aria-controls="productSpecification">Product Specification </p>

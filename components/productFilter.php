@@ -1,3 +1,14 @@
+<style>
+    filterSection > * > * > input{
+        border-radius: 0 !important;
+    }
+    filterSection > * > * > input:checked{
+        background-color: black !important;
+    }
+    sorter > select {
+        border-radius: 0 !important;
+    }
+</style>
 <filterSection>
     <sorter>
         <select class="form-select" aria-label="Default select example">

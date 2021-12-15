@@ -6,7 +6,8 @@
     product{
         display: block;
         padding: 5% 5%;
-        background: #f9fafb;
+        background: white;
+        border: black 1px solid !important;
         height: 100%;
     }
     .productImg{

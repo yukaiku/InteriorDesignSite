@@ -1,11 +1,8 @@
 <!-- Footer -->
 <style type="text/css">
     footer{
-        bottom: 0;
         position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        top: 50vh;
     }
     .footerContent{
         display: flex;

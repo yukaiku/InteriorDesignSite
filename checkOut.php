@@ -6,13 +6,12 @@
     <?php
     require_once ('components/cssTemplate.php');
     require_once ('components/jsTemplate.php');
-    require_once ('components/capitalisFont.php');
+    require_once ('components/styles.php');
     require_once ('lib/formValidation.php');
     ?>
     <style>
         body{
             width: 100%;
-            font-family: oxygenFont;
         }
         container{
             height: fit-content;
@@ -35,7 +34,7 @@ require_once ("components/checkoutProductCard.php");
 ?>
 <container>
     <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
+        <h4 class="mb-3 title">Billing address</h4>
         <form class="needs-validation" novalidate="">
             <div class="row g-3">
                 <div class="col-sm-6">
@@ -88,7 +87,7 @@ require_once ("components/checkoutProductCard.php");
 
             <hr class="my-4">
 
-            <button class="w-100 btn btn-outline-dark btn-lg" type="submit">Checkout</button>
+            <button class="w-100 btn btn-outline-dark btn-lg source sourceSansProFont" type="submit">Checkout</button>
         </form>
     </div>
 </container>

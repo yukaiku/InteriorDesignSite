@@ -1,9 +1,9 @@
 Draft 1 Revision
 Global Changes
-- Grey for outline and btn [e3e3e3]
-- Straight line boxes
-- 3 fonts [ Header, Body (https://fonts.google.com/specimen/Oxygen), Button (https://fonts.google.com/specimen/Source+Sans+Pro)]
-- $xx_/_sqm
+? - Grey for outline and btn [e3e3e3] [Check with ashley again]
+Done - Straight line boxes
+Waiting on Header Font - 3 fonts [ Header, Body (https://fonts.google.com/specimen/Oxygen), Button (https://fonts.google.com/specimen/Source+Sans+Pro)]
+Done - $xx_/_sqm
 
 Nav Bar
 - Lighter Grey font color and underline hover effect

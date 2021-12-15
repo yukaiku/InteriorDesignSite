@@ -6,14 +6,13 @@
     <?php
     require_once ('components/cssTemplate.php');
     require_once ('components/jsTemplate.php');
-    require_once ('components/capitalisFont.php');
+    require_once ('components/styles.php');
     require_once ('components/productCard.php');
     ?>
     <style>
         body{
             width: 100%;
             height: 100vh;
-            font-family: oxygenFont;
         }
         header{
             padding-top: 5%;
@@ -39,7 +38,7 @@
 require_once ("components/navbar.php");
 ?>
 <container id="content">
-    <header>PRODUCTS</header>
+    <header class="title">PRODUCTS</header>
     <container class="row">
         <filter class="col-sm-3">
             <?php

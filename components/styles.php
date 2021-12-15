@@ -1,0 +1,35 @@
+<style>
+    .title{
+        font-family: oxygenFont;
+    }
+    body{
+        font-family: Helvetica;
+    }
+    .sourceSansProFont{
+        font-family: sourceSansProFont;
+    }
+    .btn{
+        border-radius: 0;
+    }
+    .cBtn{
+        text-align: center;
+        vertical-align: middle;
+        border-width: 0px;
+        border-color: black;
+        border-style: solid;
+        background-color: transparent;
+        display: inline-block;
+        text-transform:uppercase;
+        /*text-shadow: 1px 1px grey;*/
+    }
+    .cBtn:after{
+        display:block;
+        content: '';
+        border-bottom: solid 1px black;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+    .cBtn:hover:after{
+        transform: scaleX(1);
+    }
+</style>

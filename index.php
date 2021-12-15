@@ -6,13 +6,12 @@
     <?php
     require_once ('components/cssTemplate.php');
     require_once ('components/jsTemplate.php');
-    require_once ('components/capitalisFont.php');
+    require_once ('components/styles.php');
     ?>
     <style>
         body{
             width: 100%;
             height: 100vh;
-            font-family: oxygenFont;
         }
         #homeBanner{
             width: 100%;
@@ -34,28 +33,6 @@
         shopButton:nth-child(2){
             text-align: left;
         }
-
-        .cBtn{
-            text-align: center;
-            vertical-align: middle;
-            border-width: 0px;
-            border-color: black;
-            border-style: solid;
-            background-color: transparent;
-            display: inline-block;
-            text-transform:uppercase;
-            /*text-shadow: 1px 1px grey;*/
-        }
-        .cBtn:after{
-            display:block;
-            content: '';
-            border-bottom: solid 1px black;
-            transform: scaleX(0);
-            transition: transform 250ms ease-in-out;
-        }
-        .cBtn:hover:after{
-            transform: scaleX(1);
-        }
     </style>
 
 </head>
@@ -65,14 +42,14 @@ require_once ("components/navbar.php");
 ?>
 <container id="homeBanner">
 
-    <header>
+    <header class="title">
         <p style="font-size:30px; padding-bottom: 2%;">Welcome to</p><img src="img/logo.png" alt="..." height="80px">
     </header>
     <br/><br/>
     <subtitle>
         Shop Now
     </subtitle>
-    <div class="row">
+    <div class="row sourceSansProFont">
     <shopButton class="col-md-6">
         <a href="products.php" type="button" class="btn cBtn">Consumer</a>
     </shopButton>
@@ -82,7 +59,7 @@ require_once ("components/navbar.php");
     </div>
 </container>
 <?php
-require_once ('components/footer.php');
+require_once ('components/indexFooter.php');
 ?>
 </body>
 

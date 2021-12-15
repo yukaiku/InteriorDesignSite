@@ -17,7 +17,7 @@
 
 </style>
 
-<nav id="navbar" class="navbar sticky navbar-expand-sm navbar-light">
+<nav id="navbar" class="navbar sticky navbar-expand-sm navbar-light sourceSansProFont">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
             <img src="img/logo.png" alt="..." height="20px">
@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link cBtn" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="products.php">Products</a>
+                    <a class="nav-link cBtn" href="products.php">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactUs.php">Contact Us</a>
+                    <a class="nav-link cBtn" href="contactUs.php">Contact Us</a>
                 </li>
             </ul>
             <form class="d-flex" style="width: 32%">

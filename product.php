@@ -13,12 +13,15 @@
             width: 100%;
             height: 100vh;
         }
+        main {
+            height: 100vh;
+            background-color: #e3e3e3;
+            display: block;
+            overflow: auto;
+        }
         imgArea{
             padding-top: 15%;
             width: 100%;
-            height: 100vh;
-            padding-bottom: 15%;
-            background-color: #e3e3e3;
             text-align: center;
             vertical-align: center;
         }
@@ -29,7 +32,7 @@
             transform: translateY(-50%);
         }
         mainContent{
-            height: 100vh;
+            background-color: white;
         }
         mainContent > *{
             padding-left: 10%;
@@ -52,7 +55,7 @@
             margin-bottom: 0;
         }
         #productSpecificationContent{
-            font-size: 10px;
+            font-size: 15px;
         }
         .noShow{
             padding-top: 0;

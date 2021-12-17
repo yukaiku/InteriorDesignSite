@@ -33,6 +33,14 @@
         shopButton:nth-child(2){
             text-align: left;
         }
+
+        /*Only for index page*/
+        footer{
+            position: absolute;
+            bottom:-20px;
+            width: 100%;
+            margin: 0 !important;
+        }
     </style>
 
 </head>
@@ -59,7 +67,7 @@ require_once ("components/navbar.php");
     </div>
 </container>
 <?php
-require_once ('components/indexFooter.php');
+require_once ('components/footer.php');
 ?>
 </body>
 

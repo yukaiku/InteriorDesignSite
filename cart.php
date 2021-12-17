@@ -30,6 +30,11 @@
         products{
             padding: 1% 0;
         }
+        .cancelButton{
+            border: solid 1px;
+            padding: 1px 3px;
+            color: black;
+        }
     </style>
 
 </head>
@@ -46,10 +51,10 @@ require_once ("components/checkoutProductCard.php");
         <div class="row">
             <div class="col-sm-9">
                 <productHeader class="row">
-                    <div class="col-sm-5">Product</div>
-                    <div class="col-sm-2">Price</div>
-                    <div class="col-sm-2">Quantity</div>
-                    <div class="col-sm-2">Subtotal</div>
+                    <div class="col-sm-8">Product</div>
+                    <div class="col-sm-1">Price</div>
+                    <div class="col-sm-1">Qty</div>
+                    <div class="col-sm-1">Subtotal</div>
                     <div class="col-sm-1"></div>
                 </productHeader>
                 <?php

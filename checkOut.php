@@ -24,6 +24,12 @@
         container > * > h4{
             padding-top: 15%;
         }
+        footer{
+            position: absolute;
+            bottom:-20px;
+            width: 100%;
+            margin: 0 !important;
+        }
     </style>
 
 </head>

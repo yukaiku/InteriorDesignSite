@@ -4,6 +4,7 @@
     }
     body{
         font-family: Helvetica;
+        width: 100%;
     }
     .sourceSansProFont{
         font-family: sourceSansProFont;

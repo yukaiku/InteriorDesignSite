@@ -1,12 +1,5 @@
 <!-- Footer -->
-<style type="text/css">
-    footer{
-        bottom: 0;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
+<style>
     .footerContent{
         display: flex;
         padding: 2% 5%;
@@ -25,7 +18,7 @@
     }
     .social-icons > a{
         color: white !important;
-        font-size: 50px;
+        font-size: 30px;
         text-decoration: none;
     }
     .social-icons > a:hover, #footerAddress >*> a:hover{
@@ -36,7 +29,7 @@
         color:white;
     }
 </style>
-<footer>
+<footer class="row">
     <div class="footerContent">
         <div id="footerIcon" class="socialMediaIcon ">
             <div class="social-icons">

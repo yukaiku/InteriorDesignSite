@@ -15,7 +15,7 @@
         }
         .main{
             display: flex;
-            padding: 10% 5% 10% 5%;
+            padding: 10% 5% 15% 5%;
         }
         .map{
             width: 60%;
@@ -38,6 +38,11 @@
             /* The height is 400 pixels */
             width: 100%;
             /* The width is the width of the web page */
+        }
+        footer{
+            position: absolute;
+            bottom:0;
+            width: 100%;
         }
     </style>
     <script>
@@ -73,10 +78,9 @@ require_once ("components/navbar.php");
     </div>
     <div class="contactForm">
         <header class="title" id="contactUsTitle">
-            Contact US
+            Get In Touch
         </header>
-        <p>Thank you for visiting our website, if you have any queries or feedback, please feel free to call us or leave a comment down below.
-            Thank you.</p>
+        <p>Please call us at PHONE NUMBER HERE or send us an enquiry by completing the form below.</p>
         <form
                 action="https://formspree.io/f/xyylqzbv"
                 method="POST"

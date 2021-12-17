@@ -1,7 +1,7 @@
 <style type="text/css">
     productContainer{
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     product{
         display: block;

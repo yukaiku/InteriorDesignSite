@@ -14,6 +14,9 @@
     .searchBar{
         border-radius: 0;
     }
+    #searchbar > *{
+        border-radius: 0;
+    }
 
 </style>
 
@@ -37,10 +40,14 @@
                     <a class="nav-link cBtn" href="contactUs.php">Contact Us</a>
                 </li>
             </ul>
-            <form class="d-flex" style="width: 32%">
-<!-- Change it to a search bar with mag glass beside it and sharp edge                -->
-                <input class="form-control me-2 searchBar" style="width: 100%" type="text" placeholder="Search">
-            </form>
+            <div id="searchbar" class="input-group" style="width: 32%">
+                <input class="form-control border-end-0 border" type="search" value="search" id="example-search-input">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-secondary bg-white border ms-n5" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
             <a class="bi bi-cart" style="font-size: 20px; padding: 0 2%; color: black" href="cart.php"></a>
         </div>
     </div>

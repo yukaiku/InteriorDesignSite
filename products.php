@@ -28,6 +28,12 @@
             display: block;
             padding-bottom: 5%;
         }
+        footer{
+            position: absolute;
+            bottom:-20px;
+            width: 100%;
+            margin: 0 !important;
+        }
     </style>
     <?php
     require_once('lib/colorSwatch.php');
@@ -48,7 +54,7 @@ require_once ("components/navbar.php");
         <main class="col-sm-9">
             <products class="row">
                 <?php
-                $recordNumber = 10;
+                $recordNumber = 20;
 
                 for($i = 0; $i < $recordNumber; $i++){
                     $card = new productCard('name','39x39','wood','39', 'placeholder.png');

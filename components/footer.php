@@ -29,7 +29,7 @@
         color:white;
     }
 </style>
-<footer class="row">
+<footer class="footer">
     <div class="footerContent">
         <div id="footerIcon" class="socialMediaIcon ">
             <div class="social-icons">

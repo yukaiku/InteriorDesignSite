@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BATHHOUS - Products</title>
     <?php
     require_once ('components/cssTemplate.php');
@@ -30,7 +31,6 @@
         }
         footer{
             position: absolute;
-            bottom:-20px;
             width: 100%;
             margin: 0 !important;
         }

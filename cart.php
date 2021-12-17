@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BATHHOUS - Check Out | Cart</title>
     <?php
     require_once ('components/cssTemplate.php');
@@ -34,6 +35,8 @@
             border: solid 1px;
             padding: 1px 3px;
             color: black;
+        }
+        @media screen and (max-width: 922px) {
         }
     </style>
 

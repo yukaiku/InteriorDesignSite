@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BATHHOUS - HOME</title>
     <?php
     require_once ('components/cssTemplate.php');
@@ -41,6 +42,12 @@
             width: 100%;
             margin: 0 !important;
         }
+        /*When in landscape on mobile */
+        @media screen and (max-width: 920px){
+            footer{
+                top: 150vh;
+            }
+        }
     </style>
 
 </head>
@@ -57,11 +64,11 @@ require_once ("components/navbar.php");
     <subtitle class="sourceSansProFont" style="padding-top: 4%">
         Shop Now
     </subtitle>
-    <div class="row sourceSansProFont" style="padding-top: 1%">
-    <shopButton class="col-md-6">
+    <div class="sourceSansProFont" style="padding-top: 1%; width: 100%;">
+    <shopButton style="width: 49%; padding-right: 1%">
         <a href="products.php" type="button" class="btn btn-outline-dark">Consumer</a>
     </shopButton>
-    <shopButton class="col-md-6">
+    <shopButton style="width: 49%; padding-left: 1%">
         <a type="products.php" class="btn btn-outline-dark">Commercial</a>
     </shopButton>
     </div>
@@ -69,6 +76,7 @@ require_once ("components/navbar.php");
 <?php
 require_once ('components/footer.php');
 ?>
+
 </body>
 
 

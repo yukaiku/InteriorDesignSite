@@ -15,7 +15,7 @@
             width: 100%;
         }
         container{
-            height: fit-content;
+            height: 90vh;
             display: block;
             padding-left: 5%;
             padding-right: 5%;
@@ -25,7 +25,11 @@
         container > * > h4{
             padding-top: 15%;
         }
-
+        @media screen and (max-width: 922px) {
+            container{
+                height: fit-content;
+            }
+        }
     </style>
 
 </head>

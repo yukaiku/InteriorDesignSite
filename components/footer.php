@@ -49,13 +49,15 @@
                 <a class="social-icon-link instagram" aria-label="Instagram" href="" target="_blank">
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                 </a>
+                <a class="social-icon-link instagram" aria-label="Instagram" href="mailto:" target="_blank">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
         <div id="footerAddress">
             <h4>Address</h4>
             <p>110 Kelvin Grove Road, Kelvin Grove, Qld 4059<br/>
-                <a href="tel:0466181181">0466 181 181</a><br/>
-                <a href="mailto:">Email HERE</a></p>
+                Aster: <a href="tel:0466181181">0466 181 181</a><br/>
         </div>
 
     </div>

@@ -29,7 +29,7 @@ class checkoutProductCard
                     <div class="col-sm-6">
                         <div style="width: 50%">
                             <p>' . $this->productName . '</p>
-                            <p style="font-size: 10px">Size(mm): ' . $this->productDimensions . ' <br/>
+                            <p style="font-size: 10px">Size (mm): ' . $this->productDimensions . ' <br/>
                                 Surface Finish: ' . $this->surfaceFinish . '<br/>
                                 Colour: ' . $this->colour . '</p>
                         </div>
@@ -42,7 +42,7 @@ class checkoutProductCard
             </div>
             <div class="col-sm-2 subtotal" id="subtotal' . $this->productId . '" >$' . $this->subtotal . '</div>
             <div class="col-sm-1">
-                <button id="cancelButton" value="productId" class="btn btn-outline-dark"><i class="bi bi-x-lg"></i></button>
+                <button id="cancelButton" value="productId" class="btn btn-outline-dark"><i class="bi bi-x"></i></button>
             </div>
             <hr/>
         </products>

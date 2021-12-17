@@ -42,19 +42,19 @@ require_once ("components/navbar.php");
 ?>
 <container id="homeBanner">
 
-    <header class="title">
+    <header class="sourceSansProFont">
         <p style="font-size:30px; padding-bottom: 2%;">Welcome to</p><img src="img/logo.png" alt="..." height="80px">
     </header>
     <br/><br/>
-    <subtitle>
+    <subtitle class="sourceSansProFont" style="padding-top: 4%">
         Shop Now
     </subtitle>
-    <div class="row sourceSansProFont">
+    <div class="row sourceSansProFont" style="padding-top: 1%">
     <shopButton class="col-md-6">
-        <a href="products.php" type="button" class="btn cBtn">Consumer</a>
+        <a href="products.php" type="button" class="btn btn-outline-dark">Consumer</a>
     </shopButton>
     <shopButton class="col-md-6">
-        <a type="products.php" class="btn cBtn">Commercial</a>
+        <a type="products.php" class="btn btn-outline-dark">Commercial</a>
     </shopButton>
     </div>
 </container>

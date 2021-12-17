@@ -38,7 +38,7 @@
 require_once ("components/navbar.php");
 ?>
 <container id="content">
-    <header class="title">PRODUCTS</header>
+    <header class="title">Products</header>
     <container class="row">
         <filter class="col-sm-3">
             <?php

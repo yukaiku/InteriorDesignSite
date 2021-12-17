@@ -11,6 +11,14 @@
     .btn{
         border-radius: 0;
     }
+    .btn-dark{
+        background-color: #e3e3e3;
+        color:black;
+    }
+    /*.btn-outline-dark:hover{*/
+    /*    background-color: #e3e3e3 !important;*/
+    /*    color: black;*/
+    /*}*/
     .cBtn{
         text-align: center;
         vertical-align: middle;

@@ -42,7 +42,7 @@
         }
         header{
             padding-top: 15%;
-            font-size: 40px;
+            font-size: 50px;
             padding-bottom: 1%;
         }
         productDescription{
@@ -79,7 +79,7 @@ require_once ("components/navbar.php");
         <img id="productImage" src="img/placeholder.png">
     </imgArea>
     <mainContent class="col-sm-6">
-        <header class="title">FANCY DARK TILE</header>
+        <header class="title">Fancy Dark Tile</header>
         <price>$49/sqm</price>
         <hr/>
         <productDescription>
@@ -105,7 +105,7 @@ require_once ("components/navbar.php");
                             <p>Sku: </p>
                             <p>Series: </p>
                             <p>Warranty: </p>
-                            <p>Size(mm): </p>
+                            <p>Size (mm): </p>
                             <p>Surface Finish: </p>
                             <p>Colour: </p>
                             <p>Material: </p>

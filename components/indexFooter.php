@@ -15,6 +15,7 @@
     }
     #footerAddress{
         width: 25%;
+        font-size: 15px;
     }
     #footerAddress >*> a{
         color: white !important;
@@ -22,7 +23,7 @@
     }
     .social-icons > a{
         color: white !important;
-        font-size: 50px;
+        font-size: 40px;
         text-decoration: none;
     }
     .social-icons > a:hover, #footerAddress >*> a:hover{
@@ -46,13 +47,15 @@
                 <a class="social-icon-link instagram" aria-label="Instagram" href="" target="_blank">
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                 </a>
+                <a class="social-icon-link instagram" aria-label="Instagram" href="mailto:" target="_blank">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
         <div id="footerAddress">
-            <h4>Address</h4>
-            <p>110 Kelvin Grove Road, Kelvin Grove, Qld 4059<br/>
-                <a href="tel:0466181181">0466 181 181</a><br/>
-                <a href="mailto:">Email HERE</a></p>
+            <p>Address: <br/>
+                110 Kelvin Grove Road, Kelvin Grove, Qld 4059<br/>
+                Aster: <a href="tel:0466181181">0466 181 181</a><br/>
         </div>
 
     </div>

@@ -34,11 +34,11 @@ require_once ("components/checkoutProductCard.php");
 ?>
 <container>
     <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3 title">Billing address</h4>
+        <h4 class="mb-3 title">Billing Address</h4>
         <form class="needs-validation" novalidate="">
             <div class="row g-3">
                 <div class="col-sm-6">
-                    <label for="firstName" class="form-label">First name</label>
+                    <label for="firstName" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
                     <div class="invalid-feedback">
                         Valid first name is required.
@@ -46,7 +46,7 @@ require_once ("components/checkoutProductCard.php");
                 </div>
 
                 <div class="col-sm-6">
-                    <label for="lastName" class="form-label">Last name</label>
+                    <label for="lastName" class="form-label">Last Name</label>
                     <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
                     <div class="invalid-feedback">
                         Valid last name is required.
@@ -67,7 +67,7 @@ require_once ("components/checkoutProductCard.php");
                     <div class="invalid-feedback">
                         Please enter your shipping address.
                     </div>
-                    <p style="font-size: 8px; color: grey;">For addresses with a unit number, please use unit number / street number. Eg. U1410 / 70 Mary st.</p>
+                    <p style="font-size: 15px; color: grey;">For addresses with a unit number, please use unit number / street number. Eg. U1410 / 70 Mary st.</p>
                 </div>
 
                 <div class="col-12">
@@ -78,11 +78,11 @@ require_once ("components/checkoutProductCard.php");
 
             <hr class="my-4">
 
-            <h4 class="mb-3">Payment</h4>
+            <h4 class="mb-3 title">Payment</h4>
 
             <div class="my-3">
                 <p>An email will be sent containing payment method and details,
-                once payment is made, shipment will be delivered within 14 days.</p>
+                once the payment is made, shipment will be delivered within 14 days.</p>
             </div>
 
             <hr class="my-4">

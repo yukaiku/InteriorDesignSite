@@ -28,7 +28,7 @@
             font-size: 50px;
             padding-bottom: 2%;
         }
-        form > label > *{
+        form > label > *, form > label{
             width: 100%;
         }
         /*Map Custom CSS*/
